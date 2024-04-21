@@ -5,7 +5,7 @@ use panel::{
 
 fn main() {
     let tao_a = 0.0.deg_to_rad();
-    let tao_d = 0.0.deg_to_rad();
+    let tao_d = 180.0.deg_to_rad();
 
     let epsilon = 23.5.deg_to_rad();
     let gamma = std::f64::consts::PI-52.0.deg_to_rad();
